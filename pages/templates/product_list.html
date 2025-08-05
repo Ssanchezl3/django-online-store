@@ -1,0 +1,13 @@
+{% extends 'pages/base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+{% block header_title %}{{ subtitle }}{% endblock %}
+
+{% block content %}
+<h2>All Products</h2>
+<ul>
+  {% for product in products %}
+    <li>{{ product.name }} - ${{ product.price }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}

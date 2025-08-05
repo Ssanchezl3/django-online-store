@@ -1,0 +1,18 @@
+<!-- pages/templates/pages/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}My Site{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>{% block header_title %}Welcome{% endblock %}</h1>
+    </header>
+    <main>
+        {% block content %}
+        <!-- Default content goes here -->
+        {% endblock %}
+    </main>
+</body>
+</html>
