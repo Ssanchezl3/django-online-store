@@ -5,7 +5,7 @@ myenv/
 *.log
 *.pot
 *.pyc
-*.pyo
+*.pyogit add .
 *.pyd
 *.swp
 *.swo
